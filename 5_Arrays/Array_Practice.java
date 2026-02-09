@@ -140,18 +140,18 @@ public class Array_Practice {
      for(int i = 0;i<arr.length;i++){
         arr[i]= sc.nextInt();
      }
-    //  int key = sc.nextInt();
-    //  System.out.println("The key is at index "+linear(arr,key));
-    //   System.out.println("The largest value is "+ largest(arr));
-    //    System.out.println("The smalllest value is "+smallest(arr));
-    // System.out.println("The value is at index "+Binary(arr, key));
-    // System.out.println("The value is at index "+firstOccurrence(arr, key));
-    // reverse(arr);
-    // System.out.println("The Reverse is ");
-    // for(int i = 0;i<arr.length;i++){
-    //     System.out.println(arr[i]);
-    // }
-    // printPairs(arr);
+     int key = sc.nextInt();
+     System.out.println("The key is at index "+linear(arr,key));
+      System.out.println("The largest value is "+ largest(arr));
+       System.out.println("The smalllest value is "+smallest(arr));
+    System.out.println("The value is at index "+Binary(arr, key));
+    System.out.println("The value is at index "+firstOccurrence(arr, key));
+    reverse(arr);
+    System.out.println("The Reverse is ");
+    for(int i = 0;i<arr.length;i++){
+        System.out.println(arr[i]);
+    }
+    printPairs(arr);
 
     subarrays(arr);
 }
