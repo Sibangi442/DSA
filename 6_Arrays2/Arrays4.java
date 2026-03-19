@@ -13,7 +13,7 @@ public class Arrays4 {
         for(int i = n-2;i>=0;i--){
             rightmax[i]= Math.max(height[i],rightmax[i+1]);
         }
-        int trappedwater = 0; 
+        int trappedwater = 0;
         int waterlevel = 0;
         //loop
         for(int i = 0;i<n;i++){
