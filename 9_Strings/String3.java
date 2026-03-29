@@ -1,0 +1,31 @@
+public class String3 {
+    public static float getShortestPath(String str){
+        int x = 0,y =0;
+        for(int i = 0;i<str.length();i++){
+            char dir = str.charAt(i);
+            //south
+            if(dir =='S'){
+                y--;
+            }
+            //North
+            else if(dir=='N'){
+                y++;
+            } 
+            //West
+            else if(dir =='W'){
+                x--;
+            }
+            //East (dir =='E')
+            else{
+                x++;
+            }
+        }
+        int x2 = (x*x);
+        int y2 = (y*y);
+        return (float)Math.sqrt(x2+y2);
+    }
+    public static void main(String args[]){
+        String path ="WNEENESENNN";
+        System.out.println(getShortestPath(path));
+    }
+}
