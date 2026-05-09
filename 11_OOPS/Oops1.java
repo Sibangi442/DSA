@@ -1,4 +1,4 @@
-public class Ops1 {
+public class Oops1 {
     //static = access specifier , public = acess modifier
     //main function needs to be public as well as static
     public static void main(String args[]){
