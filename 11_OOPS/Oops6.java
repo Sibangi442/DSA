@@ -29,7 +29,7 @@ class  Student{
         marks = new int[3];
     }
 
-    //COPY constructor
+    //COPY constructor --(Shallow copy -reference is copied)
     Student(Student s1){ // here the object is passed as parameter to the constructor
         marks = new int[3];
         this.name = s1.name;
