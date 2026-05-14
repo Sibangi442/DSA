@@ -1,3 +1,4 @@
+//SINGLE LEVEL INHERITENCE
 public class Oops8 {
     public static void main(String args[]){
         Fish shark = new Fish(); // here we are creating object for child class , and it acess all the properties and methods of parent class
